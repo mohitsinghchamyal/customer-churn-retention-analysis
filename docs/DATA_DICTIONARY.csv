@@ -1,0 +1,26 @@
+file,column,definition
+customers.csv,customer_id,Unique synthetic customer key
+customers.csv,signup_date,Date customer account is created
+customers.csv,city,Simulated Indian city
+customers.csv,customer_tier,Simulated service/tier segment; Prime-like is a fictional proxy
+customers.csv,acquisition_channel,Simulated acquisition source
+customers.csv,age_band,Simulated age band
+customers.csv,first_purchase_date,"First delivered order date, if any"
+customers.csv,last_purchase_date,"Most recent delivered order date, if any"
+customers.csv,delivered_orders,Count of delivered orders
+customers.csv,lifetime_revenue_inr,Sum of net values from delivered orders
+customers.csv,avg_order_value_inr,Average net value per delivered order
+customers.csv,days_since_last_purchase,"Days since last delivered purchase; if none, days since signup"
+customers.csv,observation_eligible,Whether customer has at least 180 days since signup by 2024-12-31
+customers.csv,churned_180d,1/0 churn label for eligible customers; null for ineligible customers
+customers.csv,customer_status,"Never Purchased, Churned, Active, or At Risk"
+orders.csv,order_id,Unique synthetic order key
+orders.csv,customer_id,Customer foreign key
+orders.csv,order_date,Order date
+orders.csv,category,Simulated product category
+orders.csv,order_amount_inr,Synthetic gross order amount in INR
+orders.csv,discount_pct,Synthetic discount percentage
+orders.csv,payment_method,Simulated payment method
+orders.csv,device_type,Simulated device channel
+orders.csv,order_status,"Delivered, Returned, or Cancelled"
+orders.csv,net_order_value_inr,Net value after discount for delivered orders; zero otherwise

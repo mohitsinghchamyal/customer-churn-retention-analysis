@@ -1,0 +1,10 @@
+{
+  "disclosure": "Synthetic simulated e-commerce data; not actual Amazon.in data.",
+  "analysis_date": "2024-12-31",
+  "customers": 5000,
+  "orders": 66506,
+  "delivered_orders": 59886,
+  "eligible_customers": 4739,
+  "synthetic_180_day_churn_rate": 0.3252,
+  "delivered_net_revenue_inr": 173696535.05
+}
